@@ -1,0 +1,10 @@
+sfile = input("Enter a file to open: ")
+dfile = input("Enter a file to open: ")
+f1 = open(sfile,"r")
+data = f1.read()
+print(type(data))
+f2 = open(dfile,"w")
+for word in data:
+    f2.write(word)
+f1.close()
+f2.close()
