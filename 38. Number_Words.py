@@ -1,0 +1,7 @@
+sfile = input("Enter a file to open: ")
+f1 = open(sfile,"r")
+data = f1.read()
+l = data.split()
+print(l)
+print(len(l))
+f1.close()

@@ -1,0 +1,5 @@
+list1 = eval(input("Enter a list:"))
+list2 = list(set(list1))
+list2.sort()
+print("Second smallest number in the list is",list2[1])
+print("Second largest number in the list is",list2[-2])

@@ -1,0 +1,5 @@
+sfile = input("Enter a file to open: ")
+f1 = open(sfile,"r")
+data = f1.read().replace(" ","")
+print("There are",len(data),"characters in file",sfile)
+f1.close()
